@@ -1,13 +1,13 @@
 # Datenschutzerklärung für die "MYPROMPT" Erweiterung
 
-**Letzte Aktualisierung:** 9. Juni 2026
+**Letzte Aktualisierung:** 19. Juni 2026
 
 Diese Datenschutzerklärung erläutert, wie "MYPROMPT" (im Folgenden "die Erweiterung") personenbezogene Daten erhebt, verwendet und schützt.
 
 ## 1. Verantwortlicher Entwickler
 
-Arnoldas Schwab
-E-Mail: arnoldas.schwab@gmail.com
+arnollldas  
+E-Mail: studio.tablet657@slmail.me
 
 ## 2. Welche Daten werden erfasst?
 
@@ -41,11 +41,13 @@ Die Erweiterung bietet optionale KI-Funktionen (Prompt verbessern, Prompt generi
 *   Die Nutzung der KI-Funktionen ist vollständig optional.
 *   Groq verarbeitet die Anfragen gemäß den eigenen Datenschutzbestimmungen: [https://groq.com/privacy-policy/](https://groq.com/privacy-policy/)
 
+**Drittlandübermittlung:** Groq, Inc. ist ein US-amerikanisches Unternehmen (Mountain View, CA, USA). Die Übermittlung Ihrer Eingaben in die USA erfolgt auf Grundlage von Standardvertragsklauseln (Standard Contractual Clauses, SCC) gemäß Art. 46 Abs. 2 lit. c DSGVO. Rechtsgrundlage für die Verarbeitung ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bereitstellung der KI-Funktionen).
+
 ## 5. Datenspeicherung
 
-*   **Prompts und Profildaten** werden in Google Firebase Firestore (Cloud-Datenbank) gespeichert, verknüpft mit Ihrer Google ID.
+*   **Prompts und Profildaten** werden in Google Firebase Firestore (Cloud-Datenbank) gespeichert, verknüpft mit Ihrer Google ID. Die Daten werden ausschließlich in der EU gespeichert (Region: `eur3`, EU-Multi-Region — europäische Rechenzentren). Mit Google besteht ein Auftragsverarbeitungsvertrag (AVV) gemäß Art. 28 DSGVO.
 *   **Sitzungsdaten** (Login-Status) werden lokal in Ihrem Browser gespeichert (`chrome.storage.local`).
-*   Der Authentifizierungs-Server läuft bei Render.com (Frankfurt, EU).
+*   Der **Authentifizierungs-Server** läuft bei Render.com (Rechenzentrum: Frankfurt, Deutschland, EU).
 
 ## 6. Ihre Rechte
 
@@ -53,9 +55,9 @@ Sie haben jederzeit das Recht:
 
 *   **Auskunft** über Ihre gespeicherten Daten zu verlangen.
 *   **Löschung** Ihrer Daten zu beantragen — alle zugehörigen Prompts und Profildaten werden dauerhaft entfernt.
-*   Sich bei der zuständigen **Datenschutzbehörde** zu beschweren.
+*   Sich bei der zuständigen **Datenschutzbehörde** zu beschweren (in Deutschland: der jeweilige Landesbeauftragte für Datenschutz und Informationsfreiheit).
 
-Kontakt für Datenanfragen: arnoldas.schwab@gmail.com
+Kontakt für Datenanfragen: studio.tablet657@slmail.me
 
 ## 7. Änderungen an dieser Erklärung
 

@@ -1,13 +1,13 @@
 # Privacy Policy for the "MYPROMPT" Extension
 
-**Last Updated:** June 9, 2026
+**Last Updated:** June 19, 2026
 
 This Privacy Policy explains how "MYPROMPT" (hereinafter "the Extension") collects, uses, and protects personal data.
 
 ## 1. Developer
 
-Arnoldas Schwab
-Email: arnoldas.schwab@gmail.com
+arnollldas  
+Email: studio.tablet657@slmail.me
 
 ## 2. What Data Is Collected?
 
@@ -41,11 +41,13 @@ The Extension offers optional AI-powered features (Improve Prompt, Generate Prom
 *   The use of AI features is entirely optional.
 *   Groq processes requests according to its own privacy policy: [https://groq.com/privacy-policy/](https://groq.com/privacy-policy/)
 
+**International Data Transfer:** Groq, Inc. is a US-based company (Mountain View, CA, USA). The transfer of your input data to the United States is based on Standard Contractual Clauses (SCCs) pursuant to Art. 46(2)(c) GDPR. The legal basis for processing is Art. 6(1)(f) GDPR (legitimate interests in providing AI functionality).
+
 ## 5. Data Storage
 
-*   **Prompts and profile data** are stored in Google Firebase Firestore (cloud database), linked to your Google ID.
+*   **Prompts and profile data** are stored in Google Firebase Firestore (cloud database), linked to your Google ID. All data is stored exclusively within the EU (Region: `eur3`, EU Multi-Region — European data centers). A Data Processing Agreement (DPA) pursuant to Art. 28 GDPR is in place with Google.
 *   **Session data** (login status) is stored locally in your browser (`chrome.storage.local`).
-*   The authentication server runs on Render.com (Frankfurt, EU).
+*   The **authentication server** runs on Render.com (data center: Frankfurt, Germany, EU).
 
 ## 6. Your Rights
 
@@ -55,7 +57,7 @@ You have the right at any time to:
 *   **Request deletion** of your data — all associated prompts and profile data will be permanently removed.
 *   **File a complaint** with the relevant data protection authority.
 
-For data requests, contact: arnoldas.schwab@gmail.com
+For data requests, contact: studio.tablet657@slmail.me
 
 ## 7. Changes to This Policy
 
