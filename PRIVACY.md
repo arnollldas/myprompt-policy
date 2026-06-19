@@ -6,7 +6,7 @@ This Privacy Policy explains how "MYPROMPT" (hereinafter "the Extension") collec
 
 ## 1. Developer
 
-Arnoldas Schwab
+arnollldas
 Email: studio.tablet657@slmail.me
 
 ## 2. What Data Is Collected?

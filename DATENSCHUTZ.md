@@ -6,7 +6,7 @@ Diese Datenschutzerklärung erläutert, wie "MYPROMPT" (im Folgenden "die Erweit
 
 ## 1. Verantwortlicher Entwickler
 
-Arnoldas Schwab
+arnollldas
 E-Mail: studio.tablet657@slmail.me
 
 ## 2. Welche Daten werden erfasst?
