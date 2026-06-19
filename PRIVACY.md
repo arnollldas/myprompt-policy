@@ -7,7 +7,7 @@ This Privacy Policy explains how "MYPROMPT" (hereinafter "the Extension") collec
 ## 1. Developer
 
 Arnoldas Schwab
-Email: arnoldas.schwab@gmail.com
+Email: studio.tablet657@slmail.me
 
 ## 2. What Data Is Collected?
 
@@ -55,7 +55,7 @@ You have the right at any time to:
 *   **Request deletion** of your data — all associated prompts and profile data will be permanently removed.
 *   **File a complaint** with the relevant data protection authority.
 
-For data requests, contact: arnoldas.schwab@gmail.com
+For data requests, contact: studio.tablet657@slmail.me
 
 ## 7. Changes to This Policy
 

@@ -7,7 +7,7 @@ Diese Datenschutzerklärung erläutert, wie "MYPROMPT" (im Folgenden "die Erweit
 ## 1. Verantwortlicher Entwickler
 
 Arnoldas Schwab
-E-Mail: arnoldas.schwab@gmail.com
+E-Mail: studio.tablet657@slmail.me
 
 ## 2. Welche Daten werden erfasst?
 
@@ -55,7 +55,7 @@ Sie haben jederzeit das Recht:
 *   **Löschung** Ihrer Daten zu beantragen — alle zugehörigen Prompts und Profildaten werden dauerhaft entfernt.
 *   Sich bei der zuständigen **Datenschutzbehörde** zu beschweren.
 
-Kontakt für Datenanfragen: arnoldas.schwab@gmail.com
+Kontakt für Datenanfragen: studio.tablet657@slmail.me
 
 ## 7. Änderungen an dieser Erklärung
 
