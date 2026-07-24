@@ -1,6 +1,6 @@
 # Privacy Policy for the "MYPROMPT" Extension
 
-**Last Updated:** June 19, 2026
+**Last Updated:** July 24, 2026
 
 This Privacy Policy explains how "MYPROMPT" (hereinafter "the Extension") collects, uses, and protects personal data.
 
@@ -35,10 +35,10 @@ Your data is **not** shared with, sold to, or used by any third parties for adve
 
 ## 4. AI Features (Prompt Enhancement & Synthesis)
 
-The Extension offers optional AI-powered features (Improve Prompt, Generate Prompt, Arena Synthesis). When you use these features, the text you enter is forwarded to our server, which securely transmits it to the AI service Groq (groq.com) for processing.
+The Extension offers optional AI-powered features (Improve Prompt, Generate Prompt, Arena Synthesis). When you use these features, the text you enter is forwarded to a serverless function (hosted on Vercel), which securely transmits it to the AI service Groq (groq.com) for processing.
 
 *   No user inputs are permanently stored.
-*   The use of AI features is entirely optional.
+*   Using the AI features is optional and requires a Google sign-in (to protect AI access from abuse).
 *   Groq processes requests according to its own privacy policy: [https://groq.com/privacy-policy/](https://groq.com/privacy-policy/)
 
 **International Data Transfer:** Groq, Inc. is a US-based company (Mountain View, CA, USA). The transfer of your input data to the United States is based on Standard Contractual Clauses (SCCs) pursuant to Art. 46(2)(c) GDPR. The legal basis for processing is Art. 6(1)(f) GDPR (legitimate interests in providing AI functionality).
@@ -46,8 +46,8 @@ The Extension offers optional AI-powered features (Improve Prompt, Generate Prom
 ## 5. Data Storage
 
 *   **Prompts and profile data** are stored in Google Firebase Firestore (cloud database), linked to your Google ID. All data is stored exclusively within the EU (Region: `eur3`, EU Multi-Region — European data centers). A Data Processing Agreement (DPA) pursuant to Art. 28 GDPR is in place with Google.
-*   **Session data** (login status) is stored locally in your browser (`chrome.storage.local`).
-*   The **authentication server** runs on Render.com (data center: Frankfurt, Germany, EU).
+*   **Session data** (login status / sign-in token) is stored locally in your browser (`chrome.storage.local`). The extension accesses Google Firestore directly to store/load your prompts.
+*   **Authentication and the AI proxy** run as serverless functions on Vercel (they issue the sign-in token and relay AI requests so the AI key stays server-side).
 
 ## 6. Your Rights
 

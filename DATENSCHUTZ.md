@@ -1,6 +1,6 @@
 # Datenschutzerklärung für die "MYPROMPT" Erweiterung
 
-**Letzte Aktualisierung:** 19. Juni 2026
+**Letzte Aktualisierung:** 24. Juli 2026
 
 Diese Datenschutzerklärung erläutert, wie "MYPROMPT" (im Folgenden "die Erweiterung") personenbezogene Daten erhebt, verwendet und schützt.
 
@@ -35,10 +35,10 @@ Ihre Daten werden **nicht** an Dritte weitergegeben, verkauft oder für Werbezwe
 
 ## 4. KI-Funktionen (Prompt-Verbesserung & Synthese)
 
-Die Erweiterung bietet optionale KI-Funktionen (Prompt verbessern, Prompt generieren, Arena-Synthese). Wenn Sie diese Funktionen nutzen, wird der von Ihnen eingegebene Text zur Verarbeitung an unseren Server weitergeleitet, der ihn verschlüsselt an den KI-Dienst Groq (groq.com) überträgt.
+Die Erweiterung bietet optionale KI-Funktionen (Prompt verbessern, Prompt generieren, Arena-Synthese). Wenn Sie diese Funktionen nutzen, wird der von Ihnen eingegebene Text zur Verarbeitung an eine serverlose Funktion (gehostet bei Vercel) weitergeleitet, die ihn verschlüsselt an den KI-Dienst Groq (groq.com) überträgt.
 
 *   Es werden keine Eingaben dauerhaft gespeichert.
-*   Die Nutzung der KI-Funktionen ist vollständig optional.
+*   Die Nutzung der KI-Funktionen ist optional und setzt eine Google-Anmeldung voraus (um den KI-Zugang vor Missbrauch zu schützen).
 *   Groq verarbeitet die Anfragen gemäß den eigenen Datenschutzbestimmungen: [https://groq.com/privacy-policy/](https://groq.com/privacy-policy/)
 
 **Drittlandübermittlung:** Groq, Inc. ist ein US-amerikanisches Unternehmen (Mountain View, CA, USA). Die Übermittlung Ihrer Eingaben in die USA erfolgt auf Grundlage von Standardvertragsklauseln (Standard Contractual Clauses, SCC) gemäß Art. 46 Abs. 2 lit. c DSGVO. Rechtsgrundlage für die Verarbeitung ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bereitstellung der KI-Funktionen).
@@ -46,8 +46,8 @@ Die Erweiterung bietet optionale KI-Funktionen (Prompt verbessern, Prompt generi
 ## 5. Datenspeicherung
 
 *   **Prompts und Profildaten** werden in Google Firebase Firestore (Cloud-Datenbank) gespeichert, verknüpft mit Ihrer Google ID. Die Daten werden ausschließlich in der EU gespeichert (Region: `eur3`, EU-Multi-Region — europäische Rechenzentren). Mit Google besteht ein Auftragsverarbeitungsvertrag (AVV) gemäß Art. 28 DSGVO.
-*   **Sitzungsdaten** (Login-Status) werden lokal in Ihrem Browser gespeichert (`chrome.storage.local`).
-*   Der **Authentifizierungs-Server** läuft bei Render.com (Rechenzentrum: Frankfurt, Deutschland, EU).
+*   **Sitzungsdaten** (Login-Status/Anmelde-Token) werden lokal in Ihrem Browser gespeichert (`chrome.storage.local`). Die Erweiterung greift zum Speichern/Laden der Prompts direkt auf Google Firestore zu.
+*   **Anmeldung und KI-Proxy** laufen über serverlose Funktionen bei Vercel (stellen das Anmelde-Token aus und leiten KI-Anfragen weiter, damit der KI-Schlüssel serverseitig bleibt).
 
 ## 6. Ihre Rechte
 
