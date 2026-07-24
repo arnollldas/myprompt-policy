@@ -47,7 +47,7 @@ Die Erweiterung bietet optionale KI-Funktionen (Prompt verbessern, Prompt generi
 
 *   **Prompts und Profildaten** werden in Google Firebase Firestore (Cloud-Datenbank) gespeichert, verknüpft mit Ihrer Google ID. Die Daten werden ausschließlich in der EU gespeichert (Region: `eur3`, EU-Multi-Region — europäische Rechenzentren). Mit Google besteht ein Auftragsverarbeitungsvertrag (AVV) gemäß Art. 28 DSGVO.
 *   **Sitzungsdaten** (Login-Status/Anmelde-Token) werden lokal in Ihrem Browser gespeichert (`chrome.storage.local`). Die Erweiterung greift zum Speichern/Laden der Prompts direkt auf Google Firestore zu.
-*   **Anmeldung und KI-Proxy** laufen über serverlose Funktionen bei Vercel (stellen das Anmelde-Token aus und leiten KI-Anfragen weiter, damit der KI-Schlüssel serverseitig bleibt).
+*   **Anmeldung und KI-Proxy** laufen über serverlose Funktionen bei Vercel in der EU-Region Frankfurt (stellen das Anmelde-Token aus und leiten KI-Anfragen weiter, damit der KI-Schlüssel serverseitig bleibt).
 
 ## 6. Ihre Rechte
 

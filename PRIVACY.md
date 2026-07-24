@@ -47,7 +47,7 @@ The Extension offers optional AI-powered features (Improve Prompt, Generate Prom
 
 *   **Prompts and profile data** are stored in Google Firebase Firestore (cloud database), linked to your Google ID. All data is stored exclusively within the EU (Region: `eur3`, EU Multi-Region — European data centers). A Data Processing Agreement (DPA) pursuant to Art. 28 GDPR is in place with Google.
 *   **Session data** (login status / sign-in token) is stored locally in your browser (`chrome.storage.local`). The extension accesses Google Firestore directly to store/load your prompts.
-*   **Authentication and the AI proxy** run as serverless functions on Vercel (they issue the sign-in token and relay AI requests so the AI key stays server-side).
+*   **Authentication and the AI proxy** run as serverless functions on Vercel in the EU region Frankfurt (they issue the sign-in token and relay AI requests so the AI key stays server-side).
 
 ## 6. Your Rights
 
