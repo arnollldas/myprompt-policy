@@ -1,5 +1,7 @@
 # Imprint – MyPrompt
 
+> 🇩🇪 Deutschsprachig? Zum [Impressum auf Deutsch](./IMPRESSUM.md).
+
 **Last updated:** July 28, 2026
 
 ---

@@ -1,5 +1,7 @@
 # Privacy Policy for the "MYPROMPT" Extension
 
+> 🇩🇪 Deutschsprachig? Zur [Datenschutzerklärung auf Deutsch](./DATENSCHUTZ.md).
+
 **Last Updated:** July 24, 2026
 
 This Privacy Policy explains how "MYPROMPT" (hereinafter "the Extension") collects, uses, and protects personal data.

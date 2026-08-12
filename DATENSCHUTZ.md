@@ -1,5 +1,7 @@
 # Datenschutzerklärung für die "MYPROMPT" Erweiterung
 
+> 🇬🇧 English speaker? Read the [Privacy Policy in English](./PRIVACY.md).
+
 **Letzte Aktualisierung:** 24. Juli 2026
 
 Diese Datenschutzerklärung erläutert, wie "MYPROMPT" (im Folgenden "die Erweiterung") personenbezogene Daten erhebt, verwendet und schützt.

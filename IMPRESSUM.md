@@ -1,5 +1,7 @@
 # Impressum – MyPrompt
 
+> 🇬🇧 English speaker? Read the [Imprint in English](./IMPRINT.md).
+
 **Stand:** 28. Juli 2026
 
 ---
